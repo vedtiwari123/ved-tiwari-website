@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sanjay Chai Sutta Bar</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#1e1e1e;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header img{
+    width:120px;
+}
+
+header h1{
+    margin-top:10px;
+    font-size:32px;
+}
+
+header p{
+    color:#ffcc70;
+    margin-top:5px;
+}
+
+/* Main Section */
+.main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.content{
+    max-width:400px;
+    margin:20px;
+}
+
+.content h2{
+    font-size:28px;
+    color:#333;
+}
+
+.content p{
+    margin:15px 0;
+    color:#555;
+    line-height:1.6;
+}
+
+button{
+    padding:12px 22px;
+    font-size:16px;
+    background:#d17a22;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#b8651a;
+}
+
+/* Image */
+.image img{
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer{
+    background:#1e1e1e;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://i.imgur.com/8KqQZQe.png" alt="Chai Logo">
+    <h1>Sanjay Chai Sutta Bar</h1>
+    <p>☕ Ek Cup Chai, Hazaar Baatein</p>
+</header>
+
+<section class="main">
+    <div class="content">
+        <h2>Welcome</h2>
+        <p>
+            Fresh kulhad chai, desi taste, and perfect adda vibes.  
+            Yaha chai sirf peene ke liye nahi, jeene ke liye milti hai.
+        </p>
+        <button>Order Chai</button>
+    </div>
+
+    <div class="image">
+        <img src="https://images.unsplash.com/photo-1605475128023-6c56c96b1a66" alt="Kulhad Chai">
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sanjay Chai Sutta Bar | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
